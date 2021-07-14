@@ -26,12 +26,16 @@ header {
     flex-direction: column;
     align-items: center;
 }
+.mobile-menu{
+    display: none;
+}
 .header-area{
     width: 1170px;
     padding-top: 52px;
     display: flex;
     justify-content: space-between;
 }
+img{max-width: 100%;}
 .menu-list li a {
     color: #fff;
     font-size: 16px;
@@ -164,16 +168,58 @@ header {
 .bottom-footer-info {
     color: #000;
 }
-
+.footer-area {
+    text-align: center;
+}
 /* footer area end */
 
 /* media query for device  */
 @media (max-width: 668px){
     .clubs-area {
-       
         grid-template-columns:1fr;
         gap: 10px 20px;
     }
+    .news-area {
+        flex-direction: column;
+        gap: 66px;
+    }
+
+    .menu-list{
+        display: none;
+    }
+    
+    .mobile-menu{
+        display: block;
+    }
+ .mobile-menu .fas{
+     font-size: 24px;
+     color: #fff;
+ }
+ .slider-text {
+    padding-bottom: 50px;
+}
+
+
+header {
+    margin-top: -2px;
+}
+
+.header-area {
+    align-items: center;
+}
+.slider{
+    flex-direction: column;
+}
+.slider-text h1 {
+    font-size: 36px;
+    line-height: 50px;
+}
+    
 }
 /* media query for tabet  */
-@media (min-width: 668px) and (max-width: 992){}
+@media (min-width: 668px) and (max-width: 992){
+    .news-area {
+        flex-direction: column;
+        gap: 66px;
+    }
+}
