@@ -295,11 +295,11 @@ header {
 
 }
 ::-webkit-scrollbar-track{
-  background:#fffgi;
-  border-radius: 10px;
+  background:#2D25A0;
+  border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb{
-  background: #2D25A0;
+  background: #e02c6d;
   border-radius: 10px;
 
 }
