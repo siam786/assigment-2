@@ -13,13 +13,11 @@ body {
   font-size: 16px;
   line-height: 28px;
 }
-main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .container {
   width: 1170px;
+  max-width: 80%;
+  margin: auto;
 }
 /* header are css start */
 header {
@@ -56,15 +54,16 @@ header {
 
 .login a {
     color: #fff;
-    padding: 10px 40px;
+    padding: 5px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 1em;
     text-decoration: none;
     text-transform: capitalize;
     background: #E02C6D;
     width: 123px;
+    max-height: 44px;
 }
 /* header are css end */
 
@@ -127,6 +126,11 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+.news-info h2 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
 /* news area end */
 /* footer area start */
 #footer {
@@ -162,3 +166,14 @@ header {
 }
 
 /* footer area end */
+
+/* media query for device  */
+@media (max-width: 668px){
+    .clubs-area {
+       
+        grid-template-columns:1fr;
+        gap: 10px 20px;
+    }
+}
+/* media query for tabet  */
+@media (min-width: 668px) and (max-width: 992){}
