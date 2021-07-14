@@ -27,6 +27,12 @@ header {
   flex-direction: column;
   align-items: center;
 }
+.login a:hover .fas{
+  transform: translateX(10px);
+}
+.login a .fas {
+  transition: 0.5s ease-in;
+}
 .mobile-menu {
   display: none;
 }
@@ -155,15 +161,9 @@ header {
   border-radius: 50%;
   margin-right: 14px;
 }
-
-.social-bar .fab {
-  font-size: 17px;
-  background: #e7e7e8;
-  padding: 10px 8px;
-  border-radius: 50%;
-  margin-right: 14px;
+.top-footer-info {
+  padding-bottom: 29px;
 }
-
 .bottom-footer-info {
   text-align: center;
 }
@@ -173,12 +173,10 @@ header {
 .footer-area {
   text-align: center;
 }
-.login a:hover .fas{
-  transform: translateX(10px);
+.copy-info {
+  padding-top: 20px;
 }
-.login a .fas {
-  transition: 0.5s ease-in;
-}
+
 /* footer area end */
 
 /* media query for device  */
