@@ -55,13 +55,14 @@ header {
 }
 .login {
     background: #E02C6D;
+    width: 160px;
 }
 
 .login a {
     color: #fff;
     padding: 10px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 1em;
     text-decoration: none;
@@ -80,6 +81,7 @@ header {
 .slider {
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .slider-text h1 {
@@ -87,4 +89,29 @@ header {
     line-height: 80px;
     color: #fff;
 }
-/* slider area end */
+ /* clubs area start */
+ #club {
+    margin: 50px;
+    position: relative;
+}
+
+.clubs-area {
+    padding: 70px 0 165px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 27px;
+}
+
+.single-club {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.player-info h1 {
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+ /* clubs area end */
