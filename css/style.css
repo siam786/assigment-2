@@ -287,3 +287,19 @@ header {
     max-width: 100%;
   }
 }
+
+/* scroll bar css */
+::-webkit-scrollbar{
+  width:15px;
+  height: 5px;
+
+}
+::-webkit-scrollbar-track{
+  background:#fffgi;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #2D25A0;
+  border-radius: 10px;
+
+}
